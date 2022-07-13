@@ -40,6 +40,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-datetime -->
+		<!--<dependency>
+			<groupId>org.jetbrains.kotlinx</groupId>
+			<artifactId>kotlinx-datetime</artifactId>
+			<version>0.2.1</version>
+			<scope>runtime</scope>
+		</dependency> -->
+
 	</dependencies>
 
 	<build>
