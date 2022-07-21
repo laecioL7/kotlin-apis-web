@@ -41,6 +41,13 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+			<scope>provided</scope>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-datetime -->
 		<!--<dependency>
 			<groupId>org.jetbrains.kotlinx</groupId>
@@ -76,6 +83,7 @@
 						<artifactId>kotlin-maven-allopen</artifactId>
 						<version>${kotlin.version}</version>
 					</dependency>
+
 				</dependencies>
 			</plugin>
 		</plugins>
